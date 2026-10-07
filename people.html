@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>People — Lang Lab</title>
+<meta name="description" content="The people of the Lang Lab at the University of Minnesota.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Expanded:wght@700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Lang Lab home">
+      <svg class="mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M5 3c0 5 14 5 14 9s-14 4-14 9" stroke="#E0468A" stroke-width="2" stroke-linecap="round"/>
+        <path d="M19 3c0 5-14 5-14 9s14 4 14 9" stroke="#21B4AC" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span class="name">Lang<span>.</span>Lab</span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 6h14M3 10h14M3 14h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="people.html" aria-current="page">People</a>
+      <a href="publications.html">Publications</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">People</p>
+        <h2>The lab</h2>
+      </div>
+
+      <!-- PRINCIPAL INVESTIGATOR -->
+      <div class="people-grid" style="margin-bottom:3rem;">
+        <article class="person lead">
+          <div class="photo">
+            <img src="assets/headshot_klang.jpg" alt="Kevin Lang">
+            <!--<span class="ph">PHOTO · assets/headshot_klang.jpg</span> -->
+          </div>
+          <div>
+            <p class="role">Principal Investigator</p>
+            <h3>Kevin S. Lang, PhD</h3>
+            <p><!-- [One short paragraph: your background, research interests, and what drives the lab's work. A couple of sentences is plenty — funders and prospective students read this first.] --></p>
+            <div class="links">
+              <a class="email" data-u="klang" data-d="umn.edu">Email</a>
+              <a href="#">Google Scholar</a>
+              <a href="#">ORCID</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- LAB MEMBERS — duplicate one .person block per person -->
+      <div class="people-grid">
+
+        <article class="person">
+          <div class="photo">
+            <img src="assets/headshot_kill.jpeg" alt="Killian Campbell">
+          </div>
+          <h3>Killian Campbell, PhD</h3>
+          <p class="role">Postdoctoral Researcher</p>
+          <p>Killian is investigating mechanisms of genome maintenance in Campylobacter jejuni.</p>
+          <div class="links"><a class="email" data-u="username" data-d="umn.edu">Email</a></div>
+        </article>
+
+        <article class="person">
+          <div class="photo"><span class="ph">PHOTO</span></div>
+          <h3>Megan Puccetti</h3>
+          <p class="role">DVM Student</p>
+          <p>Megan is studying antimicrobial compounds produced by Bacillus species that inhibit Staphylococcus aureus.</p>
+          <div class="links"><a class="email" data-u="username" data-d="umn.edu">Email</a></div>
+        </article>
+
+         <article class="person">
+          <div class="photo"><span class="ph">PHOTO</span></div>
+          <h3>Sawyer Flatgard</h3>
+          <p class="role">Undergraduate Student</p>
+          <p>Sawyer supports research in the lab by assisting with experiments and data analysis.</p>
+          <div class="links"><a class="email" data-u="username" data-d="umn.edu">Email</a></div>
+        </article> 
+
+        <!--<article class="person">
+          <div class="photo"><span class="ph">PHOTO</span></div>
+          <h3>[Full Name]</h3>
+          <p class="role">Research Technician</p>
+          <p>[One line on their project or focus.]</p>
+          <div class="links"><a class="email" data-u="username" data-d="umn.edu">Email</a></div>
+        </article> -->
+
+      </div>
+
+      <div style="margin-top:2.5rem;">
+        <p class="eyebrow" style="margin-bottom:0.5rem;">Join us</p>
+        <p style="color:var(--slate);max-width:55ch;">We're always glad to hear from prospective students and researchers interested in our research. <a href="contact.html">Get in touch →</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div>Lang Lab ·  <span style="font-family:var(--mono);font-size:0.82rem;">langlab.info</span></div>
+    <nav class="nav">
+      <a href="research.html">Research</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

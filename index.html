@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lang Lab</title>
+<meta name="description" content="The Lang Lab at the University of Minnesota studies how DNA replication, DNA repair, and transcription are coordinated in living cells.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Archivo+Expanded:wght@700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Lang Lab home">
+      <svg class="mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M5 3c0 5 14 5 14 9s-14 4-14 9" stroke="#E0468A" stroke-width="2" stroke-linecap="round"/>
+        <path d="M19 3c0 5-14 5-14 9s14 4 14 9" stroke="#21B4AC" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span class="name">Lang<span>.</span>Lab</span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 6h14M3 10h14M3 14h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="research.html">Research</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Chromosome Dynamics · Genomic Instability</p>
+        <h1>How the genome holds its <em>ground</em>.</h1>
+        <p class="lede">We study how core biological processes, such as DNA replication and transcription are coordinated in living cells.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="research.html">See our research</a>
+          <a class="btn btn-ghost" href="publications.html">Publications</a>
+        </div>
+      </div>
+      <div class="field" aria-hidden="true">
+        <div class="chan a"></div>
+        <div class="chan b"></div>
+        <div class="grid-overlay"></div>
+        <span class="tag">CH1 / CH2 · MERGE</span>
+        <span class="scalebar"><i></i>10 µm</span>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">In the lab</p>
+        <h2>A multi-disciplinary group asking fundamental questions.</h2>
+        <p>We combine approaches across genetics, biochemistry, cell biology, proteomics, and genomics. Meet the people behind the work, or browse what we've published.</p>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-ghost" href="people.html">Meet the lab →</a>
+        <a class="btn btn-ghost" href="publications.html">Read our papers →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div>Lang Lab · University of Minnesota · <span style="font-family:var(--mono);font-size:0.82rem;">langlab.info</span></div>
+    <nav class="nav">
+      <a href="research.html">Research</a>
+      <a href="people.html">People</a>
+      <a href="publications.html">Publications</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
